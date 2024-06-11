@@ -22,17 +22,79 @@ body {
     width: 15%;
     background-color: aqua;
     padding: 10px 20px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
-.header {
-    background-color: rgb(5, 108, 108);
-    min-height: 150px;
+header {
+    background-color: aquamarine;
+    min-height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10px;
 }
 .content {
     background-color: white;
     min-height: 300px;
     padding: 20px;
 }
-.footer {
-    background-color: rgb(99, 56, 240);
-    min-height: 150px;
+footer {
+    background-color: aquamarine;
+    min-height: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10px;
+}
+.logo{
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+.team h2{
+    display: flex;
+    justify-content: center;
+}
+.doc_card{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 15px;
+    width: 200px;
+    margin: 5px;
+}
+.doc_card h3,p{
+    margin: 5px 0;
+}
+.doc_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; 
+}
+
+.address_container{
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact_card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+}
+.address{
+    width: 300px;
+    text-align: center;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
